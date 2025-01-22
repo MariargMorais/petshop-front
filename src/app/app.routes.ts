@@ -7,7 +7,7 @@ import { AgendamentoComponent } from './agendamento/agendamento.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'landing', pathMatch: 'full' },
+  //{ path: '', redirectTo: 'landing', pathMatch: 'full' },
   { path: 'agendamento', component: AgendamentoComponent },
   { path: 'carrinho', component: CarrinhoComponent },
   { path: 'detalhesProduto', component: DetalhesProdutosComponent },

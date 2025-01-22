@@ -28,6 +28,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+  padding: 5px;
 }
 
 a {
@@ -78,15 +79,12 @@ ul {
 
 .footer-col-1 {
   flex-basis: 30%;
+  text-align: left;
 }
 
 .footer-col-2 {
   flex: 1;
-  text-align: center;
-}
-
-.footer-col-2 img {
-  margin-bottom: 20px;
+  text-align: right;
 }
 
 .footer-col-3,

@@ -1,184 +1,73 @@
-<body>
-  <div class="header-yellow">
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
-          <img src="assets/logo.png" width="125px" />
-        </div>
-        <nav>
-          <ul id="MenuItems">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="login/login.html">Account</a></li>
-          </ul>
-        </nav>
-        <a href="shopping-cart.html"
-          ><img src="assets/cart.png" widht="30px" height="30px"
-        /></a>
-        <img src="assets/menu.png" class="menu-icon" onclick="menutoggle()" />
-      </div>
+<app-header />
+
+<div class="small-container single-product">
+  <div class="row">
+    <div class="col-2">
+      <img src="assets/produto-2.webp" width="100%" />
+    </div>
+    <div class="col-2">
+      <h1>Produto</h1>
+      <h4>R$50.00</h4>
+      <select>
+        <option>Selecione um tamanho</option>
+        <option>XXL</option>
+        <option>XL</option>
+        <option>Medium</option>
+        <option>Small</option>
+      </select>
+      <input type="number" value="1" />
+      <a href="" class="btn">Adicionar ao carrinho</a>
+      <ul>
+        <li><h3>Detalhes do Produto</h3></li>
+      </ul>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum labore
+        odit mollitia sed laborum numquam voluptatibus ea atque rem delectus,
+        cupiditate praesentium assumenda accusamus id quas accusantium neque
+        reiciendis.
+      </p>
+      <p></p>
     </div>
   </div>
+</div>
 
-  <!------ Single product details----->
-
-  <div class="small-container single-product">
-    <div class="row">
-      <div class="col-2">
-        <img src="assets/produto-2.webp" width="100%" />
-      </div>
-      <div class="col-2">
-        <h1>Produto</h1>
-        <h4>R$50.00</h4>
-        <select>
-          <option>Selecione um tamanho</option>
-          <option>XXL</option>
-          <option>XL</option>
-          <option>Medium</option>
-          <option>Small</option>
-        </select>
-        <input type="number" value="1" />
-        <a href="" class="btn">Adicionar ao carrinho</a>
-        <ul>
-          <li><h3>Detalhes do Produto</h3></li>
-          <li>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span
-            ><span class="fa fa-star checked"></span
-            ><span class="fa fa-star checked"></span>
-          </li>
-        </ul>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum
-          labore odit mollitia sed laborum numquam voluptatibus ea atque rem
-          delectus, cupiditate praesentium assumenda accusamus id quas
-          accusantium neque reiciendis.
-        </p>
-        <p></p>
-      </div>
-    </div>
-  </div>
-
+<div class="small-container">
   <div class="small-container">
-    <div class="small-container">
-      <div class="row row-2">
-        <h2>Produtos Relacionados</h2>
-        <p>Ver mais</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <img src="assets/produto.jpeg" />
-        <h4>Nome Produto</h4>
-        <div class="rating" id="rating">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-        </div>
-        <p>R$ 50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="assets/produto.jpeg" />
-        <h4>Nome Produto</h4>
-        <div class="rating" id="rating">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-        </div>
-        <p>R$ 50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="assets/produto.jpeg" />
-        <h4>Nome Produto</h4>
-        <div class="rating" id="rating">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-        </div>
-        <p>R$ 50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="assets/produto.jpeg" />
-        <h4>Nome Produto</h4>
-        <div class="rating" id="rating">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-        </div>
-        <p>R$ 50.00</p>
-      </div>
-    </div>
-    <div class="page-btn">
-      <span>1</span>
-      <span>2</span>
-      <span>3</span>
-      <span>4</span>
-      <span>&#8594;</span>
+    <div class="row row-2">
+      <h2>Produtos Relacionados</h2>
     </div>
   </div>
 
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col-1">
-          <h3>Download our app</h3>
-          <p>Download app for Android and IOS mobile phone.</p>
-          <div class="app-logo">
-            <img src="assets/play-store.png" />
-            <img src="assets/app-store.png" />
-          </div>
-        </div>
-        <div class="footer-col-2">
-          <img src="assets/Estrela.png" width="50px" />
-          <p>
-            Our purpose is to give you the gaming content with the best prices.
-          </p>
-        </div>
-        <div class="footer-col-3">
-          <h3>Useful links</h3>
-          <ul>
-            <li>Coupons</li>
-            <li>Blog Post</li>
-            <li>Return Policy</li>
-            <li>Join Affiliate</li>
-          </ul>
-        </div>
-        <div class="footer-col-4">
-          <h3>Follow us</h3>
-          <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Discord</li>
-            <li>Instagram</li>
-          </ul>
-        </div>
-      </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="assets/produto.jpeg" />
+      <h4>Nome Produto</h4>
+      <p>R$ 50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/produto.jpeg" />
+      <h4>Nome Produto</h4>
+      <p>R$ 50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/produto.jpeg" />
+      <h4>Nome Produto</h4>
+      <p>R$ 50.00</p>
+    </div>
+    <div class="col-4">
+      <img src="assets/produto.jpeg" />
+      <h4>Nome Produto</h4>
+      <p>R$ 50.00</p>
     </div>
   </div>
-  <!-----js for toggle menu----->
-  <script>
-    var MenuItems = document.getElementById("MenuItems");
-    MenuItems.style.maxHeight = "0px";
+  <div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+  </div>
+</div>
 
-    function menutoggle() {
-      if (MenuItems.style.maxHeight == "0px") {
-        MenuItems.style.maxHeight = "200px";
-      } else {
-        MenuItems.style.maxHeight = "0px";
-      }
-    }
-  </script>
-</body>
+<app-footer />
