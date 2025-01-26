@@ -1,0 +1,27 @@
+h3 {
+  color: #e6ded4;
+  font-weight: bold;
+}
+
+.col-4 {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-basis: 25%;
+  margin-bottom: 10px;
+  min-width: 200px;
+  padding: 10px;
+  transition: transform 0, 5s;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}

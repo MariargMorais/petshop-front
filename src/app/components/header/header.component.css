@@ -1,6 +1,10 @@
+a {
+color: #23282b;
+}
+
 .btn {
   display: inline-block;
-  background-color: #ffbe08;
+  background-color: #23282b;
   color: solid black;
   padding: 8px 30px;
   margin: 30px 0;
@@ -8,7 +12,7 @@
 }
 
 .header {
-  background: #fefaa1;
+  background: #f2b61b;
   justify-content: space-between;
   align-items: center;
 }
@@ -37,7 +41,7 @@
 .search-bar {
   display: flex;
   align-items: center;
-  background: #f1f1f1;
+  background: #fff;
   margin-left: 30px;
   padding: 10px;
   border-radius: 25px;

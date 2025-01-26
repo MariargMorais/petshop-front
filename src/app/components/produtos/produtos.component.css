@@ -1,10 +1,14 @@
 h4 {
-  color: #555;
+  color: #23282b;
   font-weight: normal;
 }
 
+p{
+  color: #23282b;
+  text-align: justify;
+}
 select {
-  border: 1px solid #ffbe08;
+  border: 1px solid #f2b61b;
   padding: 5px;
 }
 
@@ -40,7 +44,7 @@ select:focus {
 }
 .page-btn span {
   display: inline-block;
-  border: 1px solid #ffbe08;
+  border: 1px solid #f2b61b;
   margin-left: 10px;
   width: 40px;
   height: 40px;
@@ -50,7 +54,7 @@ select:focus {
 }
 
 .page-btn span:hover {
-    background-color: #ffbe08;
+    background-color: #f2b61b;
     color: #fff;
 }
 
@@ -81,12 +85,12 @@ select:focus {
   margin: 0 auto 80px;
   position: relative;
   line-height: 60px;
-  color: #555;
+  color: #23282b;
 }
 
 .title::after {
   content: "";
-  background: black;
+  background: #23282b;
   width: 80px;
   height: 5px;
   border-radius: 5px;

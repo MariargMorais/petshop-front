@@ -13,7 +13,7 @@ input:focus {
 }
 
 select {
-  border: 1px solid #ffbe08;
+  border: 1px solid #f2b61b;
   padding: 5px;
 }
 
@@ -26,7 +26,7 @@ ul {
 }
 
 .btn {
-  background-color: #ffbe08;
+  background-color: #f2b61b;
   border-radius: 30px;
   color: black;
   display: inline-block;
@@ -98,7 +98,7 @@ ul {
 }
 
 .page-btn span {
-  border: 1px solid #ffbe08;
+  border: 1px solid #f2b61b;
   cursor: pointer;
   display: inline-block;
   height: 40px;
@@ -109,7 +109,7 @@ ul {
 }
 
 .page-btn span:hover {
-  background-color: #ffbe08;
+  background-color: #f2b61b;
   color: #fff;
 }
 
@@ -138,7 +138,7 @@ ul {
 }
 
 .single-product input {
-  border: 1px solid #ffbe08;
+  border: 1px solid #f2b61b;
   display: flex;
   font-size: 15px;
   height: 40px;
@@ -157,7 +157,7 @@ ul {
 }
 
 .title {
-  color: #555;
+  color: #e6ded4;
   line-height: 60px;
   margin: 0 auto 80px;
   position: relative;

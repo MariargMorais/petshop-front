@@ -1,0 +1,49 @@
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding: 20px;
+  width: 310px;
+}
+
+.outer-container {
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #23282b;
+  text-align: center;
+}
+
+label {
+  color: #23282b;
+  display: block;
+  margin-top: 10px;
+}
+
+select,
+input,
+button {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #f2b51b96;
+  border: none;
+  color: #23282b;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color:#f2b61b ;
+  color: #23282b;
+}

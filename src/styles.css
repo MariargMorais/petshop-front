@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -9,9 +9,9 @@ body {
 }
 
 .navbar {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 5px;
 }
 
@@ -32,11 +32,11 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: #e6ded4;
 }
 
 p {
-  color: #555;
+  color: #e6ded4;
   text-align: justify;
 }
 

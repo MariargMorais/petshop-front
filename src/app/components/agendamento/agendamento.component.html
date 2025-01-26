@@ -1,0 +1,31 @@
+<app-header />
+
+<div class="outer-container">
+<div class="container">
+  <h2>Agendamento de Consulta Veterinária</h2>
+  <form>
+    <label for="veterinario">Escolha o Veterinário:</label>
+    <select id="veterinario" name="veterinario">
+      <option value="dr_silva">Dr. Silva</option>
+      <option value="dra_maria">Dra. Maria</option>
+      <option value="dr_joao">Dr. João</option>
+    </select>
+
+    <label for="data">Escolha o Dia:</label>
+    <input type="date" id="data" value="2001-01-01" required />
+
+    <label for="horario">Escolha o Horário:</label>
+    <select id="horario" name="horario">
+      <option value="09:00">09:00</option>
+      <option value="10:00">10:00</option>
+      <option value="11:00">11:00</option>
+      <option value="14:00">14:00</option>
+      <option value="15:00">15:00</option>
+      <option value="16:00">16:00</option>
+    </select>
+
+    <button type="submit">Agendar Consulta</button>
+  </form>
+</div>
+</div>
+<app-footer />
