@@ -1,20 +1,15 @@
 a {
-color: #23282b;
+  color: #23282b;
 }
 
-.btn {
-  display: inline-block;
-  background-color: #23282b;
-  color: solid black;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
+a img {
+  padding-right: 10px;
 }
 
 .header {
+  align-items: center;
   background: #f2b61b;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-yellow {
@@ -33,27 +28,32 @@ color: #23282b;
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
-  padding: 5px;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .search-bar {
-  display: flex;
   align-items: center;
   background: #fff;
+  border-radius: 25px;
+  display: flex;
   margin-left: 30px;
   padding: 10px;
-  border-radius: 25px;
   width: 40%;
 }
 
 .search-bar input {
-  border: none;
   background: transparent;
-  width: 100%;
-  outline: none;
+  border: none;
   font-size: 16px;
+  outline: none;
+  width: 100%;
 }
 
 .search-bar button {
@@ -62,4 +62,7 @@ color: #23282b;
   cursor: pointer;
   font-size: 16px;
   margin-left: 10px;
+}
+.search-bar button img {
+  align-content: space-around;
 }

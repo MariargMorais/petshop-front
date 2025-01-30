@@ -1,15 +1,18 @@
 h4 {
-  color: black;
+  color: #23282b;
   font-weight: bold;
-  
 }
 
 h2 {
-  padding: 20px;
+  padding: 25px;
 }
 
 input:focus {
   outline: none;
+}
+
+p {
+  color: #23282b;
 }
 
 select {
@@ -28,7 +31,7 @@ ul {
 .btn {
   background-color: #f2b61b;
   border-radius: 30px;
-  color: black;
+  color: #23282b;
   display: inline-block;
   margin: 30px 0;
   padding: 8px 30px;
@@ -58,29 +61,6 @@ ul {
   margin: 25px 0;
 }
 
-.col-4 {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  flex-basis: 25%;
-  margin-bottom: 50px;
-  min-width: 200px;
-  padding: 10px;
-  transition: transform 0, 5s;
-}
-
-.col-4 p {
-  font-size: 14px;
-}
-
-.col-4:hover {
-  transform: translateY(-5px);
-}
-
-.col-4 img {
-  width: 100%;
-}
-
 .row {
   align-items: center;
   display: flex;
@@ -88,7 +68,7 @@ ul {
   justify-content: space-between;
 }
 
-.row-2{
+.row-2 {
   justify-content: space-between;
   margin: 100px auto 50 px;
 }
@@ -156,6 +136,12 @@ ul {
   padding-right: 25px;
 }
 
+.small-container-2 {
+  margin: auto;
+  max-width: 1080px;
+  padding-right: 25px;
+}
+
 .title {
   color: #e6ded4;
   line-height: 60px;
@@ -165,7 +151,7 @@ ul {
 }
 
 .title::after {
-  background: black;
+  background: #23282b;
   border-radius: 5px;
   bottom: 0;
   content: "";

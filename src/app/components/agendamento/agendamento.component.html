@@ -2,9 +2,16 @@
 
 <div class="outer-container">
 <div class="container">
-  <h2>Agendamento de Consulta Veterinária</h2>
+  <h2>Agendamentos</h2>
   <form>
-    <label for="veterinario">Escolha o Veterinário:</label>
+    <label for="agendamento">Tipo de agendamento:</label>
+    <select id="agendamento" name="agendamento">
+      <option value="consulta">Consulta</option>
+      <option value="banho">Banho</option>
+      <option value="banho-tosa">Banho & Tosa</option>
+    </select>
+
+    <label for="veterinario">Escolha o profissional:</label>
     <select id="veterinario" name="veterinario">
       <option value="dr_silva">Dr. Silva</option>
       <option value="dra_maria">Dra. Maria</option>

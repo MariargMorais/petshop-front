@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "nome": "Ração Premium para Cães",
+    "variacao": "Adulto",
+    "quantidadeEstoque": 50,
+    "descricao": "Ração completa e balanceada para cães adultos.",
+    "preco": 89.9
+  },
+  {
+    "id": 2,
+    "nome": "Ração Premium para Gatos",
+    "variacao": "Filhote",
+    "quantidadeEstoque": 35,
+    "descricao": "Ração para gatos filhotes com ingredientes naturais.",
+    "preco": 74.9
+  },
+  {
+    "id": 3,
+    "nome": "Coleira Ajustável",
+    "variacao": "Pequeno Porte",
+    "quantidadeEstoque": 20,
+    "descricao": "Coleira de nylon ajustável com fecho seguro.",
+    "preco": 25.0
+  },
+  {
+    "id": 4,
+    "nome": "Brinquedo Mordedor",
+    "variacao": "Osso de Borracha",
+    "quantidadeEstoque": 60,
+    "descricao": "Brinquedo para cães, ideal para aliviar o estresse.",
+    "preco": 19.9
+  },
+  {
+    "id": 5,
+    "nome": "Cama para Cães",
+    "variacao": "Tamanho M",
+    "quantidadeEstoque": 15,
+    "descricao": "Cama confortável com tecido lavável.",
+    "preco": 159.9
+  },
+  {
+    "id": 6,
+    "nome": "Arranhador para Gatos",
+    "variacao": "Com Brinquedo",
+    "quantidadeEstoque": 12,
+    "descricao": "Arranhador com base firme e brinquedos pendurados.",
+    "preco": 119.9
+  },
+  {
+    "id": 7,
+    "nome": "Tapete Higiênico",
+    "variacao": "Pacote com 30 Unidades",
+    "quantidadeEstoque": 40,
+    "descricao": "Tapetes superabsorventes para cães.",
+    "preco": 89.0
+  },
+  {
+    "id": 8,
+    "nome": "Shampoo para Cães",
+    "variacao": "Pele Sensível",
+    "quantidadeEstoque": 25,
+    "descricao": "Shampoo hipoalergênico para cães com pele sensível.",
+    "preco": 35.9
+  },
+  {
+    "id": 9,
+    "nome": "Comedouro Antiderrapante",
+    "variacao": "Tamanho G",
+    "quantidadeEstoque": 30,
+    "descricao": "Comedouro resistente e antiderrapante para cães grandes.",
+    "preco": 29.9
+  },
+  {
+    "id": 10,
+    "nome": "Roupinha para Cachorro",
+    "variacao": "Camiseta Listrada",
+    "quantidadeEstoque": 18,
+    "descricao": "Roupa confortável e estilosa para cães.",
+    "preco": 49.9
+  },
+  {
+    "id": 11,
+    "nome": "Ração Grain Free",
+    "variacao": "Cães Adultos",
+    "quantidadeEstoque": 28,
+    "descricao": "Ração sem grãos com alta palatabilidade.",
+    "preco": 109.9
+  },
+  {
+    "id": 12,
+    "nome": "Antipulgas e Carrapatos",
+    "variacao": "Cães até 10kg",
+    "quantidadeEstoque": 22,
+    "descricao": "Tratamento eficaz contra pulgas e carrapatos.",
+    "preco": 79.9
+  },
+  {
+    "id": 13,
+    "nome": "Coleira com Guia",
+    "variacao": "Tamanho P",
+    "quantidadeEstoque": 35,
+    "descricao": "Coleira com guia integrada, ideal para passeios.",
+    "preco": 45.0
+  },
+  {
+    "id": 14,
+    "nome": "Cama para Gatos",
+    "variacao": "Design Oval",
+    "quantidadeEstoque": 10,
+    "descricao": "Cama aconchegante e macia para gatos.",
+    "preco": 139.9
+  },
+  {
+    "id": 15,
+    "nome": "Petiscos Naturais",
+    "variacao": "Carne Desidratada",
+    "quantidadeEstoque": 50,
+    "descricao": "Petiscos saudáveis e saborosos para cães.",
+    "preco": 24.9
+  },
+  {
+    "id": 16,
+    "nome": "Fonte de Água para Gatos",
+    "variacao": "Automática",
+    "quantidadeEstoque": 15,
+    "descricao": "Fonte de água elétrica para manter a hidratação dos gatos.",
+    "preco": 179.9
+  },
+  {
+    "id": 17,
+    "nome": "Cortador de Unhas para Pets",
+    "variacao": "Universal",
+    "quantidadeEstoque": 45,
+    "descricao": "Cortador de unhas seguro e fácil de usar.",
+    "preco": 29.9
+  },
+  {
+    "id": 18,
+    "nome": "Brinquedo para Gatos",
+    "variacao": "Rato de Pelúcia",
+    "quantidadeEstoque": 55,
+    "descricao": "Brinquedo interativo para estimular os instintos do gato.",
+    "preco": 19.9
+  },
+  {
+    "id": 19,
+    "nome": "Transportadora para Pets",
+    "variacao": "Tamanho M",
+    "quantidadeEstoque": 12,
+    "descricao": "Caixa de transporte resistente e ventilada.",
+    "preco": 199.9
+  },
+  {
+    "id": 20,
+    "nome": "Coleira Antiparasitária",
+    "variacao": "Cães Grandes",
+    "quantidadeEstoque": 25,
+    "descricao": "Proteção contínua contra pulgas e carrapatos.",
+    "preco": 129.9
+  },
+  {
+    "id": 21,
+    "nome": "Snack para Gatos",
+    "variacao": "Frango",
+    "quantidadeEstoque": 40,
+    "descricao": "Snack saboroso com alto teor de proteína.",
+    "preco": 14.9
+  },
+  {
+    "id": 22,
+    "nome": "Kit Escova e Pasta de Dentes",
+    "variacao": "Sabor Carne",
+    "quantidadeEstoque": 30,
+    "descricao": "Kit de higiene bucal para cães.",
+    "preco": 39.9
+  },
+  {
+    "id": 23,
+    "nome": "Pelúcia para Cachorros",
+    "variacao": "Formato de Urso",
+    "quantidadeEstoque": 20,
+    "descricao": "Brinquedo de pelúcia resistente para cães.",
+    "preco": 34.9
+  },
+  {
+    "id": 24,
+    "nome": "Cama Suspensa para Gatos",
+    "variacao": "Ventosas",
+    "quantidadeEstoque": 10,
+    "descricao": "Cama suspensa para janelas, ideal para gatos curiosos.",
+    "preco": 159.9
+  },
+  {
+    "id": 25,
+    "nome": "Mochila para Transporte de Pets",
+    "variacao": "Transparente",
+    "quantidadeEstoque": 8,
+    "descricao": "Mochila ergonômica para transportar pequenos pets.",
+    "preco": 249.9
+  },
+  {
+    "id": 26,
+    "nome": "Ração Hipoalergênica",
+    "variacao": "Cães Pequenos",
+    "quantidadeEstoque": 15,
+    "descricao": "Ração especial para cães com alergias alimentares.",
+    "preco": 134.9
+  },
+  {
+    "id": 27,
+    "nome": "Cinto de Segurança para Carro",
+    "variacao": "Universal",
+    "quantidadeEstoque": 18,
+    "descricao": "Cinto de segurança para transportar pets com segurança.",
+    "preco": 49.9
+  },
+  {
+    "id": 28,
+    "nome": "Cascata para Petiscos",
+    "variacao": "Brinquedo Interativo",
+    "quantidadeEstoque": 22,
+    "descricao": "Brinquedo que distribui petiscos enquanto o pet brinca.",
+    "preco": 89.9
+  },
+  {
+    "id": 29,
+    "nome": "Bolsa de Transporte Dobrável",
+    "variacao": "Tecido Oxford",
+    "quantidadeEstoque": 12,
+    "descricao": "Bolsa leve e prática para transportar pets.",
+    "preco": 139.9
+  },
+  {
+    "id": 30,
+    "nome": "Kit Tigelas de Silicone",
+    "variacao": "Dobráveis",
+    "quantidadeEstoque": 32,
+    "descricao": "Tigelas dobráveis e portáteis para alimentos e água.",
+    "preco": 59.9
+  }
+]
