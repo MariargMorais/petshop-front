@@ -7,15 +7,14 @@
     <label for="agendamento">Tipo de agendamento:</label>
     <select id="agendamento" name="agendamento">
       <option value="consulta">Consulta</option>
-      <option value="banho">Banho</option>
-      <option value="banho-tosa">Banho & Tosa</option>
     </select>
 
-    <label for="veterinario">Escolha o profissional:</label>
-    <select id="veterinario" name="veterinario">
-      <option value="dr_silva">Dr. Silva</option>
-      <option value="dra_maria">Dra. Maria</option>
-      <option value="dr_joao">Dr. João</option>
+    <label for="profissional">Escolha o profissional:</label>
+    <select [(ngModel)]="profissionalSelecionado" name="profissional" required>
+      <option value="">---</option> <!-- Opção padrão vazia -->
+      <option *ngFor="let profissional of profissionais" [value]="profissional.id">
+    {{ profissional.nome }}
+      </option>
     </select>
 
     <label for="data">Escolha o Dia:</label>
@@ -31,7 +30,7 @@
       <option value="16:00">16:00</option>
     </select>
 
-    <button type="submit">Agendar Consulta</button>
+    <button (click)="agendarConsulta()" class="botao-agendar">Agendar Consulta</button>
   </form>
 </div>
 </div>
