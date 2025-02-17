@@ -20,14 +20,11 @@
   </div>
 </div>
 <div class="small-container">
-  <h2 class="title">Mais Vendidos</h2>
-  <div class="row">
-    <app-produto-cards *ngFor="let product of products" [product]="product">
+  <h2 class="title">Produtos</h2>
+  <div class="row" *ngForOf="let product of products">
+    <app-produto-cards>
     </app-produto-cards>
   </div>
-  <h2 class="title">Lançamentos</h2>
-  <app-produto-cards *ngFor="let product of products" [product]="product">
-  </app-produto-cards>
 </div>
 
 
