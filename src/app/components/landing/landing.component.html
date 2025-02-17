@@ -1,5 +1,23 @@
 <app-header />
 
+<div class="small-container">
+  <h2 class="title">Produtos Disponíveis</h2>
+  <div class="row">
+    <div class="card-produto" *ngFor="let product of products">
+      <a href="products-details.html">
+        <img [src]="product.imagem || 'assets/produto.jpeg'" alt="{{ product.nome }}" />
+      </a>
+      <h3>{{ product.nome }}</h3>
+      <div class="rating">
+        ⭐⭐⭐⭐⭐
+      </div>
+      <p class="preco">{{ product.preco | currency:'BRL' }}</p>
+      <button class="botao-adicionar">Adicionar ao Carrinho</button>
+      <button class="botao-adicionar">Comprar Agora</button>
+    </div>
+  </div>
+</div>
+
 <div class="offer">
   <div class="small-container">
     <div class="row">
@@ -19,6 +37,7 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
 <div class="small-container">
   <h2 class="title">Produtos</h2>
   <div class="row" *ngForOf="let product of products">
@@ -27,5 +46,7 @@
   </div>
 </div>
 
+=======
+>>>>>>> c75441d277052b718f39fed5f5836972c3dd76ca
 
 <app-footer />
